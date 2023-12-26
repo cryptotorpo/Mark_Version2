@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 import Intro from './Intro';
 import Network from './Network';
 import Advantages from './Advantages';
+import Functions from './Functions';
 
 function Landing () {
     return (
@@ -17,6 +18,7 @@ function Landing () {
         </div>
         <Network />
         <Advantages />
+        <Functions />
       </div>
     );
 }

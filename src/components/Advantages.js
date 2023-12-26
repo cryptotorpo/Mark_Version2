@@ -23,10 +23,10 @@ export default function Advantages() {
               </div>
             </div>
             <div className="flex w-full">
-              <div className="grid w-full grid-cols-2 gap-5 text-white">
+              <div className="grid w-full grid-cols-1 gap-5 text-white sm:grid-cols-2">
                 {
                     advantage_data.map((item) => (
-                        <div className="flex flex-row items-center justify-start gap-5 p-10 text-2xl font-medium bg-black bg-opacity-30">
+                        <div className="flex flex-row items-center justify-start gap-5 p-10 text-2xl font-medium bg-[#0D4D81] bg-opacity-30">
                             <div className="p-1 border border-white rounded-full">
                                 <img src={item.imgSrc} className="w-12 h-12"></img>
                             </div>

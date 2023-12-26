@@ -17,7 +17,7 @@ export default function Network() {
             <img
                 src="./img/video.png"
                 alt="Product screenshot"
-                className="w-[48rem] max-w-none rounded-xl sm:w-full"
+                className="w-full max-w-none rounded-xl"
             />
           </div>
         </div>        
