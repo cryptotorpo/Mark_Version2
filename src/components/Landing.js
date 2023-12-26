@@ -4,12 +4,19 @@ import '../css/animations.css';
 
 import Navbar from './Navbar';
 import Intro from './Intro';
+import Network from './Network';
+import Advantages from './Advantages';
 
 function Landing () {
     return (
       <div className="App bg-gradient-to-b from-[#03081E] to-[#0D5085]">
-        <Navbar />
-        <Intro />
+        <div className='relaitve'>
+          <img src="./img/intro_back.png" className="absolute top-0 left-0"></img>
+          <Navbar />
+          <Intro />        
+        </div>
+        <Network />
+        <Advantages />
       </div>
     );
 }

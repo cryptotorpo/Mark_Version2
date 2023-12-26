@@ -1,6 +1,11 @@
+import { LiaTelegram } from "react-icons/lia";
+import { PiGithubLogoLight } from "react-icons/pi";
+import { FaXTwitter } from "react-icons/fa6";
+import { IoWalletOutline } from "react-icons/io5";
+
 export default function Intro() {
   return (
-    <div className="py-24 overflow-hidden sm:py-32">
+    <div className="relative py-24 overflow-hidden sm:py-32">
       <div className="px-6 mx-auto max-w-7xl lg:px-8">
         <div className="grid grid-cols-1 mx-auto gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none">
           <div className="lg:pr-8 lg:pt-4">
@@ -23,7 +28,13 @@ export default function Intro() {
                 className="w-[48rem] max-w-none rounded-xl sm:w-[50rem]"
             />
           </div>
-        </div>
+          <div className="flex flex-row mt-[-150px] cursor-pointer gap-3">
+            <div className="h-12 p-2 border border-white rounded-full"><FaXTwitter className="text-white w-7 h-7"/></div>
+            <div className="h-12 p-2 border border-white rounded-full"><PiGithubLogoLight className="text-white w-7 h-7"/></div>
+            <div className="h-12 p-2 border border-white rounded-full"><LiaTelegram className="text-white w-7 h-7"/></div>
+            <div className="h-12 p-2 border border-white rounded-full"><IoWalletOutline className="text-white w-7 h-7"/></div>
+          </div>
+        </div>        
       </div>
     </div>
   )
