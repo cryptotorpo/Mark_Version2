@@ -7,6 +7,7 @@ import Intro from './Intro';
 import Network from './Network';
 import Advantages from './Advantages';
 import Functions from './Functions';
+import Footer from './Footer';
 
 function Landing () {
     return (
@@ -19,6 +20,7 @@ function Landing () {
         <Network />
         <Advantages />
         <Functions />
+        <Footer />
       </div>
     );
 }
