@@ -9,7 +9,7 @@ const advantage_data = [
 
 export default function Advantages() {
     return (
-      <div className="relative pb-24 overflow-hidden sm:pb-32">
+      <div id="advantages" className="relative pb-24 overflow-hidden sm:pb-32">
         <div className="px-6 mx-auto max-w-7xl lg:px-8">
           <div className="grid grid-cols-1 mx-auto gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none">
             <div className="lg:pr-8 lg:pt-4">

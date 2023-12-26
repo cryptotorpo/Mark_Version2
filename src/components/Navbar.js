@@ -3,10 +3,10 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'About', href: '#', current: false },
-  { name: 'Advantages', href: '#', current: false },
-  { name: 'Functions', href: '#', current: false },
+  { name: 'Home', href: '#home', current: true },
+  { name: 'About', href: '#about', current: false },
+  { name: 'Advantages', href: '#advantages', current: false },
+  { name: 'Functions', href: '#functions', current: false },
   { name: 'Application', href: '#', current: false },
 ]
 
@@ -41,7 +41,9 @@ export default function Example() {
                     alt="Your Company"
                   />
                 </div>
-                <div className="hidden p-1 border border-[#AAAAAA] sm:ml-6 sm:block rounded-3xl bg-white bg-opacity-10">
+                <div className="relative hidden p-1 border border-[#AAAAAA] sm:ml-6 sm:block rounded-3xl bg-white bg-opacity-10 overflow-hidden">
+                  <a href="#about"><img src="./img/navigation_ecllipse.png" className='absolute cursor-pointer top-4 left-10'></img></a>
+                  <img src="./img/navigation_ecllipse.png" className='absolute bottom-5 right-10'></img>
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <a
