@@ -9,8 +9,8 @@ const advantage_data = [
 ];
 
 export default function News() {
-    const [showModal, setShowModal] = useState(1);
-    const [blogTitle, setBlogTitle] = useState("fffff");
+    const [showModal, setShowModal] = useState(0);
+    const [blogTitle, setBlogTitle] = useState("");
     const [blogImg, setBlogImg] = useState("");
     const [blogContent, setBlogContent] = useState("");
 
