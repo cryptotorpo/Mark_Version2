@@ -5,8 +5,12 @@ import '../css/animations.css';
 import Navbar from './Navbar';
 import Intro from './Intro';
 import Network from './Network';
+import Partners from './Partners';
 import Advantages from './Advantages';
 import Functions from './Functions';
+import FAQ from './FAQ';
+import Application from './Application';
+import News from './News';
 import Footer from './Footer';
 
 function Landing () {
@@ -19,8 +23,12 @@ function Landing () {
           <Intro />        
         </div>
         <Network />
+        <Partners />
         <Advantages />
         <Functions />
+        <FAQ />
+        <Application />
+        <News />
         <Footer />
       </div>
     );

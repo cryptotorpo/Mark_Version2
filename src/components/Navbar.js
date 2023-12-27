@@ -7,16 +7,16 @@ const navigation = [
   { name: 'About', href: '#about', current: false },
   { name: 'Advantages', href: '#advantages', current: false },
   { name: 'Functions', href: '#functions', current: false },
-  { name: 'Application', href: '#', current: false },
+  { name: 'Application', href: '#application', current: false },
 ]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Navbar() {
   return (
-    <Disclosure as="nav" className="">
+    <Disclosure as="nav" className="fadeInDown">
       {({ open }) => (
         <>
           <div className="px-2 pt-2 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -36,7 +36,7 @@ export default function Example() {
               <div className="flex items-center justify-center flex-1 sm:items-stretch sm:justify-between">
                 <div className="flex items-center flex-shrink-0">
                   <img
-                    className="w-auto h-8"
+                    className="w-auto h-8 cursor-pointer"
                     src="./img/logo.png"
                     alt="Your Company"
                   />
@@ -50,7 +50,7 @@ export default function Example() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          'rounded-md px-3 py-2 text-sm font-medium text-white'
+                          'rounded-md px-3 py-2 text-sm font-medium text-white hover:text-[#01EBC0]'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
