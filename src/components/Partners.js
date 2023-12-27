@@ -10,8 +10,8 @@ export default function Partners() {
                     Welcome to join the Mark family! We are looking forward to becoming a great team!
                 </p>
             </div>
-            <div className="grid items-center max-w-lg grid-cols-4 mx-auto mt-28 gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-                <div className="border border-[#01EBC0] py-4 rounded-xl hover:bg-[#01EBC0] hover:bg-opacity-10 hover:bg-[#01EBC0] hover:bg-opacity-10">
+            <div className="grid items-center max-w-lg grid-cols-2 mx-auto mt-28 gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+                <div className="border border-[#01EBC0] py-4 rounded-xl hover:bg-[#01EBC0] hover:bg-opacity-10">
                     <img
                     className="object-contain w-full col-span-2 max-h-20 lg:col-span-1"
                     src="./img/partners1.png"

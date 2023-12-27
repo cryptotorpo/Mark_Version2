@@ -14,11 +14,23 @@ export default function Network() {
             </div>
           </div>
           <div className="flex justify-center w-full">
-            <img
+            <video
+                className="themepark_imgtext_vidio"
+                poster="./img/video.png"
+                src="https://marklabs.org/img/main-slide-video2.mp4"
+                controls
+                loop
+                muted
+                data-xblocker="passed"
+                style={{ visibility: "visible" }}
+              >
+                <source src="https://marklabs.org/img/main-slide-video2.mp4" type="video/mp4" />
+              </video>
+            {/* <img
                 src="./img/video.png"
                 alt="Product screenshot"
                 className="w-full max-w-none rounded-xl"
-            />
+            /> */}
           </div>
         </div>        
       </div>
